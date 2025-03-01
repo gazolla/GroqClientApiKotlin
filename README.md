@@ -192,7 +192,7 @@ fun main() = runBlocking {
 
 ## Documentation
 
-For complete documentation, see the [project Wiki](https://github.com/yourusername/groq-api-kotlin/wiki) or the [API documentation](https://yourusername.github.io/groq-api-kotlin/).
+For complete documentation, see the [API documentation](HOWTOUSE.md).
 
 ## Building from Source
 
