@@ -13,31 +13,7 @@ A modern Kotlin client library for the [Groq API](https://console.groq.com/docs)
 
 ## Installation
 
-### Gradle (Kotlin DSL)
-
-```kotlin
-dependencies {
-    implementation("com.groq.api:groq-api-kotlin:0.1.0")
-}
-```
-
-### Gradle (Groovy)
-
-```groovy
-dependencies {
-    implementation 'com.groq.api:groq-api-kotlin:0.1.0'
-}
-```
-
-### Maven
-
-```xml
-<dependency>
-    <groupId>com.groq.api</groupId>
-    <artifactId>groq-api-kotlin</artifactId>
-    <version>0.1.0</version>
-</dependency>
-```
+Not yet available. Just clone the project.
 
 ## Quick Start
 
