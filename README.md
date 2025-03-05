@@ -13,7 +13,27 @@ A modern Kotlin client library for the [Groq API](https://console.groq.com/docs)
 
 ## Installation
 
-Not yet available. Just clone the project.
+- Clone the project
+- Generate a JAR file for your Groq API Kotlin client library
+
+For a basic JAR file containing just the compiled classes:
+```bash
+./gradlew :groq-api-core:jar
+```
+
+This will create a sources JAR in the same directory, named something like `groq-api-core-1.0.0-sources.jar`.
+
+In your project just add this in your project:
+### build.gradle.kt
+```kotlin
+implementation(files("libs/groq-api-core-0.1.0.jar"))
+
+// groq-api-core dependency
+api("io.ktor:ktor-client-core:$ktorVersion")
+implementation("io.ktor:ktor-client-cio:$ktorVersion")
+implementation("io.ktor:ktor-client-content-negotiation:$ktorVersion")
+implementation("io.ktor:ktor-serialization-kotlinx-json:$ktorVersion")
+```
 
 ## Quick Start
 
