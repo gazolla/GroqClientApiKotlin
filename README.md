@@ -2,6 +2,8 @@
 
 A modern Kotlin client library for the [Groq API](https://console.groq.com/docs).
 
+There is a simple web-based chat interface for the Groq API built with Kotlin, Ktor, and HTMX. [GroqChat@github](https://github.com/gazolla/GroqChat)
+
 ## Features
 
 - Complete support for Groq API endpoints
@@ -21,7 +23,7 @@ For a basic JAR file containing just the compiled classes:
 ./gradlew :groq-api-core:jar
 ```
 
-This will create a sources JAR in the same directory, named something like `groq-api-core-1.0.0-sources.jar`.
+This will create a sources JAR in the same directory, named something like `groq-api-core-0.1.0-sources.jar`.
 
 In your project just add this in your project:
 ### build.gradle.kt
@@ -193,7 +195,7 @@ For complete documentation, see the [API documentation](HOWTOUSE.md).
 ## Building from Source
 
 ```bash
-git clone https://github.com/yourusername/groq-api-kotlin.git
+git clone https://github.com/gazolla/groq-api-kotlin.git
 cd groq-api-kotlin
 ./gradlew build
 ```
