@@ -2,8 +2,8 @@
 
 A modern Kotlin client library for the [Groq API](https://console.groq.com/docs).
 
-There is a simple web-based chat interface for the Groq API built with Kotlin, Ktor, and HTMX. [GroqChat@github](https://github.com/gazolla/GroqChat)
-
+- There is a simple web-based chat interface for the Groq API built with Kotlin, Ktor, and HTMX. [GroqChat@github](https://github.com/gazolla/GroqChat)
+- Another Kotlin-based web application that allows users to upload images and get detailed descriptions using Groq Api [GroqImageAnalyser@github](https://github.com/gazolla/GroqImageAnalyser)
 ## Features
 
 - Complete support for Groq API endpoints
